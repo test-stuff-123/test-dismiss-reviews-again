@@ -50,6 +50,6 @@ jobs:
         uses: balvajs/dismiss-stale-reviews@bc4356c73557d63f50bdaf5e9af4919ae93c73d6
         with:
           token: ${{ steps.generate-token.outputs.token }}
-          # no-owner-action: dismiss-none
+          no-owner-action: dismiss-none
           force-push-action: dismiss-none
           #ignore-files: |
